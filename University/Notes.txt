@@ -1,0 +1,42 @@
+20/10/16
+
+Always have 'History', 'Navigator' and 'Layers' windows open -> can open then drag into place
+Use 'International paper' sizes for design methods classes
+Alt + middle mouse for zoom, ctrl + middle mouse pan left and right
+X to switch between background and foreground colours 
+Hold 'Alt' while brush tool is active to bring up colour dropper
+Hold 'Ctrl' while brush tool is active to bring up move tool
+
+27/10/16
+Menu bar -> 'Type' tool -> Warp Text to add style to text (USE IN MODERATION)
+Click and drag with the 'Text tool' to create a textbox
+'Paragraph' and 'Character' windows open when working with text
+'Photo Filter' adds a tint to everything -> helps when creating warm and cool palettes
+
+03/11/16
+Marquees and lasso selection tools
+
+10/11/16
+Crtl+ R to activate rulers
+	-> right click to change the units (%, pixels etc)
+	-> drag from ruler to create guidelines, hold shift to snap to a unit
+Move tool to drag them once they are on your canvas, drag towards ruler to remove one or use clear all option to remove them all at once
+View -> New Guide -> Type positions
+Ctrl + colon key shows and hides guidelines, ctrl + @ shows and hides grid
+Filters -> Filter gallery
+	-> Cutout simplifies an image, use sliders on right to change the effect of filter
+	-> Poster Edges
+	-> Photocopy uses foreground and background colours to stylise the image
+	-> Stamp 
+	-> Torn Edges
+		-> apply once with foreground and colors as normal, then apply to another copy with colours reversed
+
+
+17/11/16
+Blend Modes: Multiply, Overlay, Soft Light and Hard Light
+Alpha masks: Click a layer -> White box with black circle at bottom of layer menu -> Creates alpha mask on layer
+	-> When drawing on alpha mask, must click the thumbnail for it, colours will turn black and white
+			-> black creates holes in mask, white fills them
+			-> alt + click alpha mask thumbnail allows you to see the mask while drawing on it
+
+Colour Swatches -> Window -> Swatches, Select Pantone Preset

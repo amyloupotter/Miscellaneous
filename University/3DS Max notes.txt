@@ -1,0 +1,82 @@
+11/10/2016
+
+- always work in Meters -> Customise -> Unit Setup -> Metric Meters -> System Unit Setup -> "1 Unit = 1.0 Meters"
+- hold "Shift" + drag in move mode to duplicate an object
+- "S" to snap, in 'element' mode use the move tool to drag objects together and join them
+- object is still not "water tight", use weld tool to weld vertices together
+- right click 'Snap Tool'-> snaps -> "Perpendicular + Vertex" -> options -> enable axis constraints
+- avoid "warped quads" as the game engine will not be able to triangulate them properly
+	-> connect vertices to triangulate the "warped quad" how you like
+	-> Display tab -> Untick 'Edges only' to help identify warped quads etc
+- NAMING CONVENTIONS -> all lowercase with no spaces, using underscores instead
+
+
+
+
+18/10/2016
+
+VERT MODE
+'Remove' tool get rids of vertices without removing neighbouring polys
+'Break' tool splits the verts into 3 separate verts, one per neighbouring poly
+'Extrude' 
+'Chamfer' 
+'Target weld' allows you to weld two specific verts
+'Remove isolated verts' eliminates verts that you may have accidentally created 
+
+'Collapse' tool will join two verts at their centre point but will only work along edges
+'Cut' will create a cut wherever you click, particularly useful when snap is active 
+'MSmooth' mesh smooth, breaks things into smaller polys in order to smooth the object
+'Tessellate' is similar in that it adds polys but does not smooth
+'Relax' will attempt to soften corners and edges without adding extra polys 
+
+Ctrl + A in vert mode -> 'Weld' -> ensures object is 'water tight'
+
+
+EDGES
+'Ring' and 'Loop 
+'Chamfer' good for creating rounded corners
+'Connect' good way of adding extra faces and splitting up meshes 
+
+
+POLY
+'Outline' is like scale but keeps the outside shape the same
+'Bevel' two stage tool, like and extrude followed by tapering 
+'Inset'
+'Bridge' be careful using the bridge tool
+'Flip' makes polys face the other direction, useful if your polys are invisible when backface culling is active 
+
+
+XVIEW CHECKS
+- the little plus in viewport -> open edges, face orientation, overlapping faces, multiple edges, isolated verts, overlapping verts
+
+HAMMER TAB
+Reset xform with broken mesh selected -> Reset, highlights and fixes any mathematical errors with the mesh
+Go to modifiers and right click -> Collapse to apply it to the mesh
+
+HIDING AND UNHIDING MESHES
+Right click -> 'Hide unselected' 
+Right click -> 'Unhide all'
+
+CHECKING POLYS
+Select an object -> Poly mode -> Selection 'By Numeric' -> Greater than 4 sides
+
+SMOOTHING GROUPS
+Faces that are touching one another will 'fake a smooth edge' if they have the same smoothing group
+Faces that aren't touching can have the same smoothing group, those that are touching cannot
+
+1/11/16
+Render UV templates as TGAs -> in photoshop go to the 'Channel' tab -> Ctrl + click 'Alpha' thumbnail -> copy and paste selection onto new layer
+
+8/11/16
+Material Editor -> Utilities -> Reset all Mateirial slots (makes all materials empty)
+After saving files to disc, check them on another computer to ensure there are no errors
+Flatten mapping -> normalise clusters active, rotation and fill holes can be turned off
+Texture shouldn't stretch over edges -> use checkerboard numbers to check -> hold shift and move edges to ensure texels aren't stretched
+When scaling parts of UV mesh, make sure you scale all of the islands at the same time -> this is handy when optimising use of the UV space
+Tools -> Pack UVs -> Normalise clusters and rotation on
+
+22/11/16
+In Photoshop if you have a texture you want but it is the wrong colour, you can match the colour from another image
+	Image -> Adjustments -> Match Colour
+Use NVIDIA Mental ray for rendering -> 800*600 TGA Renders
+
